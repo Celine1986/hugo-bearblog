@@ -7,3 +7,6 @@ title = "Home"
 
 # Welcome to my website!
 
+![local road webcam](https://511.gnb.ca/map/Cctv/34)
+
+![local road webcam](https://511.gnb.ca/map/Cctv/35)
