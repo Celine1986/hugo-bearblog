@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Hugo"
 menu = "main"
 +++
 
