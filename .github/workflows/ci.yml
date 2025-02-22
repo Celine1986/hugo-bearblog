@@ -24,6 +24,12 @@ jobs:
 
     - name: Build local ./exampleSite
       run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://tonsofplayfulhugsandthrills.neocities.org
+      
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: build
+        path: ./public
 
     - name: 🐈 Deploy to Neocities
       uses: bcomnes/deploy-to-neocities@master
