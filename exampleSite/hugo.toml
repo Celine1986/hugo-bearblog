@@ -6,13 +6,13 @@ baseURL = "https://confess-a-bear.neocities.org"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "ʕ•ᴥ•ʔ"
-author = "Celine"
+title = "🎤🧸"
+author = "Mr. X"
 copyright = "Copyright © 2025"
 languageCode = "en-CA"
 
 # Generate a nice robots.txt for SEO
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
