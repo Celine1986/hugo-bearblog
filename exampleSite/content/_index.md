@@ -7,6 +7,8 @@ title = "Home"
 
 # Welcome to my website!
 
+**Please enjoy the view**
+
 ![local road webcam](https://511.gnb.ca/map/Cctv/34)
 
 ![local road webcam](https://511.gnb.ca/map/Cctv/35)
