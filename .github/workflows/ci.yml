@@ -26,9 +26,9 @@ jobs:
       run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://janraasch.github.io/hugo-bearblog/
 
     - name: 🐈 Deploy to Neocities
-        uses: bcomnes/deploy-to-neocities@master
-        if: ${{ env.NEOCITIES_API_TOKEN }}
-        with:
+      uses: bcomnes/deploy-to-neocities@master
+      if: ${{ env.NEOCITIES_API_TOKEN }}
+      with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: false
           dist_dir: docs
