@@ -25,12 +25,6 @@ jobs:
     - name: Build local ./exampleSite
       run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://janraasch.github.io/hugo-bearblog/
 
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: build
-        path: ./public
-
     - name: 🐈 Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@master
         if: ${{ env.NEOCITIES_API_TOKEN }}
