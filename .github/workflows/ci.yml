@@ -42,7 +42,11 @@ jobs:
         with:
           name: build
           path: ./public
-      - uses: peaceiris/actions-gh-pages@v4.0.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+     - name: Deploy to neocities
+     - uses: bcomnes/deploy-to-neocities@v3
+      with:
+        api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        neocities_supporter: true # set this to true if you have a supporter account and want to bypass unsuported files filter.
+        preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
+        dist_dir: public
