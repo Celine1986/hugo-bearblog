@@ -1,18 +1,18 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://buddybear.neocities.org"
+baseURL = "https://confess-a-bear.neocities.org"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
-author = "Jane Doe"
+title = "ʕ•ᴥ•ʔ"
+author = "Celine"
 copyright = "Copyright © 2025"
 languageCode = "en-CA"
 
 # Generate a nice robots.txt for SEO
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
