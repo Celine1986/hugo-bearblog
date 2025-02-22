@@ -23,7 +23,7 @@ jobs:
         hugo-version: latest
 
     - name: Build local ./exampleSite
-      run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://tonsofplayfulhugsandthrills.neocities.org
+      run: hugo --minify --gc --destination ../public --source ./exampleSite --themesDir ../.. --baseURL https://celine1986.neocities.org
       
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
