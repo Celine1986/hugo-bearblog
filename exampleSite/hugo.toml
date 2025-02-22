@@ -8,11 +8,11 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "Hugo ʕ•ᴥ•ʔ Bear Blog"
 author = "Jane Doe"
-copyright = "Copyright © 2020, Jane Doe."
-languageCode = "en-US"
+copyright = "Copyright © 2025"
+languageCode = "en-CA"
 
 # Generate a nice robots.txt for SEO
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
