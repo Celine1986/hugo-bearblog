@@ -6,7 +6,7 @@ baseURL = "https://confess-a-bear.neocities.org"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "🎤🧸"
+title = "🧸"
 author = "Mr. X"
 copyright = "Copyright © 2025"
 languageCode = "en-CA"
@@ -27,7 +27,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
-  favicon = "favicon.ico"
+  favicon = "https://em-content.zobj.net/source/apple/391/microphone_1f3a4.png"
 
   # These "images" are used for the structured data templates. This will show up, when
   # services like Twitter or Slack want to generate a preview of a link to your site.
